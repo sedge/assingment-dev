@@ -4,16 +4,19 @@ Write an map-reduce engine that can execute programs according to the map-reduce
 Provide two endpoints using your engine with an architecture that can easily beeing extended.
 Test the functionality with at least one test each.
 
-## First endpoint counts the transaction of a merchant. 
+## First endpoint: counts the transaction of a merchant. 
+This endpoints counts the transaction of each merchant.
 
 ```
-In:
 transactions
 Out:
 
 merchant_transaction_count: [starbucks:3,Tim Hortons: 4]
 ```
-## Second endpoint combines the transactions with the users and calculates the percentage of good reflections for each user name.
+## Second endpoint: percentage of happyness per user
+
+This endpoints combines the transactions with the users and calculates the percentage of good reflections for each user name.
+
 ```
 In: 
 
