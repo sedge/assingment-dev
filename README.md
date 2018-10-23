@@ -8,6 +8,7 @@ Test the functionality with at least one test each.
 This endpoints counts the transaction of each merchant.
 
 ```
+In:
 transactions
 Out:
 
