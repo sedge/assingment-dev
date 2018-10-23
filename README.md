@@ -44,3 +44,5 @@ Users:
 ```Javascript
 {id:1, name: John},{id:2, name: Luke}
 ```
+Links:
+https://en.wikipedia.org/wiki/MapReduce
