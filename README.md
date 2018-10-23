@@ -19,7 +19,9 @@ transactions, users
 out:
 user_happiness: [{John:50%}, {Luke:100%}]
 
-Data:
+
+
+Transactions:
 
 ```Javascript
 transactions: [
@@ -31,5 +33,8 @@ transactions: [
 {id:5, merchant:Starbucks, amount:12.36, date:2018-01-07, reflected:GOOD, user_id: 2}
 {id:5, merchant:Tim Hortons, amount:1.45, date:2018-01-08, reflected:GOOD, user_id: 2}
 ]
-
+```
+Users:
+```Javascript
 users: [{id:1, name: John},{id:2, name: Luke}]
+```
