@@ -7,16 +7,20 @@ Test the functionality with at least one test each.
 First endpoint counts the transaction of a merchant. 
 
 In:
+
 transactions
 Out:
+
 merchant_transaction_count: [starbucks:3,Tim Hortons: 4]
 
 Second endpoint combines the transactions with the users and calculates the percentage of good reflections for each user name.
 
 In: 
+
 transactions, users
 
 out:
+
 user_happiness: [{John:50%}, {Luke:100%}]
 
 
